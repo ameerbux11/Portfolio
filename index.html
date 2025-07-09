@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ameer Bux Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <div class="logo">Ameer Bux</div>
+      <div class="menu-toggle" onclick="document.querySelector('nav ul').classList.toggle('active')">☰</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#languages">Languages</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero" id="home" data-aos="fade-down">
+    <div class="container">
+      <div class="profile-box">
+        <img src="img/WhatsApp Image 2025-05-14 at 20.03.05_e8798ed0.jpg" alt="Ameer Bux" class="profile-pic">
+        <div>
+          <h1>Ameer Bux Jalbani</h1>
+          <p>Front-End Developer</p>
+          <p>📞 +92 314 3028535</p>
+          <p>✉️ ameerbuxjalbani44@gmail.com</p>
+          <p>🌐 www.portfolioameer.dev</p>
+          <p>📍 Hyderabad, Pakistan</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="about" id="about" data-aos="fade-up">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Creative and detail-oriented Front-End Developer with a strong command of modern front-end technologies and UI/UX principles. Proven ability to design and develop responsive, user-centric web applications. Experienced in both agile team environments and freelance work.</p>
+    </div>
+  </section>
+
+  <section class="skills" id="skills" data-aos="fade-right">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Bootstrap</li>
+        <li>Git & GitHub</li>
+        <li>Responsive Design & Cross-Browser Compatibility</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="projects" id="projects" data-aos="zoom-in">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project" data-aos="fade-up">
+          <h3>Dog Breed Gallery</h3>
+          <p>Filterable, responsive gallery with animation.</p>
+        </div>
+        <div class="project" data-aos="fade-up" data-aos-delay="100">
+          <h3>Portfolio Website</h3>
+          <p>Animated contact form, carousel, fully responsive design.</p>
+        </div>
+        <div class="project" data-aos="fade-up" data-aos-delay="200">
+          <h3>Headphones Product Page</h3>
+          <p>Landing page showcasing headphones with modern layout.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="education" id="education" data-aos="fade-up">
+    <div class="container">
+      <h2>Education</h2>
+      <p>BS Physics – University of Sindh (2020 – 2024)</p>
+    </div>
+  </section>
+
+  <section class="certifications" id="certifications" data-aos="fade-up">
+    <div class="container">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Front-End Developer – FreeCodeCamp</li>
+        <li>Responsive Web Design – Coursera</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="languages" id="languages" data-aos="fade-up">
+    <div class="container">
+      <h2>Languages</h2>
+      <ul>
+        <li>English</li>
+        <li>Urdu</li>
+      </ul>
+    </div>
+  </section>
+  <section class="contact" id="contact" data-aos="fade-up">
+  <div class="container">
+    <h2>Send Me a Message</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message..." required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+  <footer class="footer" data-aos="fade-up">
+    <div class="container">
+      <p>&copy; 2025 Ameer Bux Jalbani</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
